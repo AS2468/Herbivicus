@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family= Caveat | Lobster | Playfair+Display | Dancing+Script|Ubuntu&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*--Navigation--*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.navbar-brand img
+{
+    height: 70px;
+    padding-top: 10px;
+    padding-left : 25px; /*--height and padding of logo--*/
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+ text-align: left;
+ color: #000!important;
+ font-size: medium;
+ font-family: 'Playfair Display', serif;
+}
+#nav-bar ul li a:hover /*Colour change of Text while Hovering Pointer*/
+{
+    color:#49703a!important;
+}
+#nav-bar ul li span:hover /*Colour change of Text while Hovering Pointer*/
+{
+    color:#86e3ce!important;
+}
+.navbar
+{
+    margin: 0 auto 30px;
+    height:100px ;
+    width: 90%;
+    position:relative ;
+    border-radius: 20px;
+    background: #89a729!important;
+    box-shadow: 0 4px 5px 0 rgba(42, 71, 52, 0.5);
+    
+}
+.navbar-toggler
+{
+    border: none!important; /*important because we are over writing bootstrap*/
+}
+.nav-link
+{
+    color: black!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* The hero image */
+
+.banner
+ {
+     background-image: linear-gradient(rgba(248, 246, 246, 0.534),rgba(66, 66, 66, 0.2)), url(HOUSE_PLANTS/banner2.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 80px;
+  }
+
+  .hero-content h1
+  {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    opacity: .6;
+    
+  }
+  .hero-content p
+  {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #000;
+    width: 80%;
+    text-shadow: 2px 1px #fff;
+    position: absolute;
+  }
+  
+
+  /*---------Cards----------*/
+.heading
+{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+.heading::after
+{
+    content: '';
+    background:#436e67;
+    height: 10px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    transform: translateY(23px);
+}
+
+
+  .card {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2); 
+   max-width: 300px;
+   margin: 4rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 80px;
+  }
+  .card-img
+  {
+      width: 100%;
+      padding-bottom: 10px;
+  }
+  .card-text h3
+  {
+    padding-bottom: 20px;
+  }
+  .card-text h5
+  {
+    padding-bottom: 20px;
+  }
+  .card-text h6
+  {
+    padding-bottom: 20px;
+    margin: 2rem;
+  }
+    .card-contact a 
+  {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    padding-right: 10px;
+    
+  }
+  @media screen and (min-width: 700px)
+  {
+      .row
+      {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+      }
+
+  }
+
+
+/*---------Services---------------*/
+#services
+{
+    background-image: linear-gradient(rgba(179, 179, 179, 0.8),rgba(0,0,0,0.8)),url(HOUSE_PLANTS/banner.jfif);
+background-size: cover;
+background-position: center;
+color: #efefef!important;
+background-attachment: fixed;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+
+}
+.services
+{ 
+    margin-top: 40px;
+    
+}
+/*---------------Contact US--------------*/
+#contact
+{
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(66, 66, 66, 0.2));
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+}
+.contact-form
+{
+    padding: 30px 5px 20px 5px;
+}
+.form-control
+{
+    border-radius: 0!important;
+    border:none !important;
+}
+::placeholder
+{
+    color: #999!important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin:15px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
